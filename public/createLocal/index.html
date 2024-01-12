@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <script src="../index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../sytle.css">
+    <title>Create place</title>
+</head>
+<body>
+    <h1> Register a place in the database </h1>
+    <br>
+        <form action="" method="post" id="Form" onsubmit="event.preventDefault(); this.checkValidity();createLocal()">
+            <input type="text" id="name" placeholder="place name" required>
+            <input type="text" id="pais" placeholder="pais" required>
+            <input type="text" id="estado" placeholder="estado" required>
+            <input type="text" id="cidade" placeholder="cidade" required>
+            <input type="text" id="rua" placeholder="rua" required>
+            <input type="number" id="numero" placeholder="numero" min="1" required>
+            <input type="text" id="complemento" placeholder="complemento">
+        <button type="submit"> register</button>
+        </form>
+</body>
+</html>

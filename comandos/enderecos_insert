@@ -1,0 +1,2 @@
+INSERT INTO Enderecos (local_id, pais, estado, cidade, rua, numero, complemento)
+VALUES (local_v, pais_v, estado_v, cidade_v, rua_v, numero_v, complemento_v);

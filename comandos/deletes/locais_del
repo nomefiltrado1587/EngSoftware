@@ -1,0 +1,2 @@
+DELETE FROM Locais
+WHERE local_id = 'local_id_v';

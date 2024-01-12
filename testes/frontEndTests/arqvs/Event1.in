@@ -1,0 +1,5 @@
+evento 1,arte,5,não vai ser engraçado,T
+,festa,2,vai ser engraçado,F
+evento 1,arte,5,,F
+,arte,5,,F
+evento 1,Pedra,2,vai ser engraçado,F

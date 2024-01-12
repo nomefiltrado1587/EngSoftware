@@ -1,0 +1,37 @@
+CREATE TABLE Locais(
+    local_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255),
+    add_id INT
+);
+
+CREATE TABLE Enderecos(
+    add_id INT AUTO_INCREMENT PRIMARY KEY,
+    pais VARCHAR(255),
+    estado VARCHAR(255),
+    cidade VARCHAR(255),
+    rua VARCHAR(255),
+    numero INT,
+    complemento VARCHAR(255)
+);
+
+ALTER TABLE Locais
+    ADD FOREIGN KEY
+        (add_id) REFERENCES Enderecos(add_id);
+
+CREATE TABLE Eventos(
+    event_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) UNIQUE,
+    details_id INT NOT NULL
+);
+
+CREATE TABLE Det_eventos(
+    details_id INT AUTO_INCREMENT PRIMARY KEY,
+    tipo ENUM ('arte', 'música', 'geek', 'comédia', 'peça', 'festa'),
+    ev_status ENUM ('encerrado', 'cancelado', 'aberto', 'pendente') NOT NULL,
+    descricao VARCHAR(255),
+    avaliacao FLOAT
+);
+
+ALTER TABLE Eventos
+    ADD FOREIGN KEY
+        (details_id) REFERENCES Det_eventos(details_id);

@@ -1,0 +1,9 @@
+01  Brasil  São Paulo   Campinas    Av. Érico Veríssimo 50  \N
+02  Brasil  São Paulo   Campinas    R. Albert Sabin \N  \N
+03  Brasil  Minas Gerais    Belo Horizonte  R. Hermilo Alves    437 \N
+04  Brasil  São Paulo   Santos  Av. Conselheiro Nébias  630 \N
+05  Brasil  Goiás   Goiânia R. 3    \N  \N
+07  Brasil  São Paulo   São Paulo   Av. Liberdade   602 \N
+08  Brasil  São Paulo   São Paulo   R. 24 de Maio   109 \N
+09  Brasil  Rio Grande do Sul Porto Alegre  R. Laurindo 332 \N
+012 Brasil  São Paulo   São Paulo   R. Evangelina   1930    \N

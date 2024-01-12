@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search Event</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="../sytle.css">
+</head>
+<body>
+    <div class="flex-container" id="search-form-container">
+        <form class="Form">
+            <input type="text" id="name_place" placeholder="place name">
+            <input type="text" id="pais" placeholder="pais">
+            <input type="text" id="estado" placeholder="estado">
+            <input type="text" id="cidade" placeholder="cidade">
+            <input type="text" id="rua" placeholder="rua">
+            <input type="number" id="numero" placeholder="numero">
+            <input type="text" id="complemento" placeholder="complemento">
+        </form>
+        <form class="Form">
+            <input type="text" id="name_event" placeholder="event name">
+            <p>tipo do evento
+                <select id="tipo">
+                    <optgroup>
+                        <option value=""> </option>
+                        <option value="arte">arte</option>
+                        <option value="música">música</option>
+                        <option value="comédia">comédia</option>
+                        <option value="peça">peça</option>
+                        <option value="festa">festa</option>
+                        <option value="geek">geek</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>status do evento
+                <select id="status">
+                    <optgroup>
+                        <option value=""> </option>
+                        <option value="encerrado">encerrado</option>
+                        <option value="cancelado">cancelado</option>
+                        <option value="aberto">aberto</option>
+                        <option value="pendente">pendente</option>
+                    </optgroup>
+                </select>
+            </p>
+            <div>avaliação</div>
+            <p>
+                <input id="avaliacao" type="number">
+            </p>
+            <textarea type="text" id="descricao" placeholder="descrição"></textarea>
+            <br>
+            <button id="search-button" onclick="event.preventDefault();search()"> search</button>
+        </form>
+
+        <form class="Form">
+            <input type="text" id="name_pack" placeholder="pack name" required>
+            <input type="date" id="dia" required>
+            <input type="number" id="preco" placeholder="preço" required>
+        </form>
+    </div>
+    <br>
+    <div id="result"></div>
+</body>
+<script src="./index.js"></script>
+</html>

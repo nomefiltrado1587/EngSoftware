@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <script src="../index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../sytle.css">
+    
+    <title>Create pack</title>
+</head>
+<body>
+    <h1> Register a pack in the database </h1>
+    <br>
+        <form action="" method="post" id="Form" onsubmit="event.preventDefault(); this.checkValidity();createPack()">
+            <input type="text" id="name" placeholder="pack name" required>
+            <input type="date" id="dia" required>
+            <input type="number" id="preco" placeholder="preco" min="0" step="any" required>
+        <button type="submit"> register</button>
+        </form>
+</body>
+</html>

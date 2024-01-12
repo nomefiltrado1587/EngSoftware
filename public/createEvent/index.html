@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <script src="../index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../sytle.css">
+    <title>Create Event</title>
+</head>
+<body>
+    <h1> Register an Event in the database </h1>
+    <br>
+        <form action="" method="post" id="Form" onsubmit="event.preventDefault(); this.checkValidity();CreateEvent()">
+            <input type="text" id="name" placeholder="event name" required>
+            <p>tipo do evento
+                <select id="tipo">
+                    <optgroup>
+                        <option value="arte">arte</option>
+                        <option value="música">música</option>
+                        <option value="comédia">comédia</option>
+                        <option value="peça">peça</option>
+                        <option value="festa">festa</option>
+                        <option value="geek">geek</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>status do evento
+                <select id="status">
+                    <optgroup>
+                        <option value="encerrado">encerrado</option>
+                        <option value="cancelado">cancelado</option>
+                        <option value="aberto">aberto</option>
+                        <option value="pendente">pendente</option>
+                    </optgroup>
+                </select>
+            </p>
+            <div>avaliação</div>
+            <p>
+                0<input type="range" id="avaliacao" min="0.0" max="5" required>5
+            </p>
+            <textarea type="text" id="descricao" placeholder="descrição" required></textarea>
+        <button type="submit"> register</button>
+        </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+-- Criar registro correspondente em Enderecos se ainda não existir
+
+INSERT INTO Locais (nome, add_id)
+VALUES (nome_v, add_id_v);
+/*
+SELECT
+    @local_id := LAST_INSERT_ID();
+
+UPDATE Enderecos
+SET 
+    local_id = @local_id,
+WHERE 
+    add_id = add_id_v;
+*/

@@ -1,0 +1,8 @@
+INSERT INTO Pacotes (nome, dia, preco)
+VALUES (nome_v, dia_v, preco_v);
+
+SELECT
+    @pack_id := LAST_INSERT_ID();
+
+INSERT INTO Sediar (event_id, pack_id, local_id)
+VALUES (@event_id, @pack_id, @local_id);

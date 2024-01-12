@@ -1,0 +1,25 @@
+01  Restaurante Universitário   \N
+02  Auditório 5 FCM \N  
+03  Circus arte e gastronomia. Santa Tereza \N
+04  Layback \N
+05  Vila Cultural Cora Coralina \N
+06  CONIC   \N
+07  Casa de Portugal    \N
+08  SESC    \N
+09  Espaço Barraco Cultural \N
+# 010  Layback \N
+011  Praça da Liberdade  \N
+012  Colégio Marupiara   \N
+013  RBS 700 \N
+014  Parque Oriental - Milton Marinho de Moraes  \N
+015  Canto do Marl   \N
+016  Ugra Press  \N
+017  Teatro Municipal de Santos  \N
+018  Barraco Cultural    \N
+019  Biblioteca Mário de Andrade \N
+020  Alfaiataria Espaço de Artes \N
+021  ARCA    \N
+022  CONIC SCS   \N
+023  BDMG Cultural   \N
+024  São Paulo Expo  \N
+025  Centro Cultural São Paulo   \N

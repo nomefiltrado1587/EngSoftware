@@ -1,0 +1,21 @@
+INSERT INTO Eventos (nome)
+VALUES (nome_v);
+
+SELECT
+    @event_id := LAST_INSERT_ID();
+
+INSERT INTO Det_eventos (event_id, tipo, ev_status, descricao)
+VALUES (@event_id, tipo_v, "pendente", descricao_v);
+
+-- Criar a seção de detalhes
+
+SELECT
+    @details_id := LAST_INSERT_ID();
+
+UPDATE Eventos
+SET 
+    details_id = @details_id
+WHERE 
+    event_id = @event_id;
+
+-- Criar os pacotes necessários, inserindo-os em Sediar conforme são criados

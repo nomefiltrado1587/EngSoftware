@@ -1,0 +1,9 @@
+
+Eventos,,,                       /Det_eventos,,,,,,                                       /Locais,,,                                      /Enderecos
+event_id,nome,details_id,        /event_id,details_id,tipo,ev_status,descricao,avaliacao, /local_id,nome,add_id,                           /add_id,pais,estado,cidade,rua,numero,complemento
+,"Feira Urucum - 3ª edição",,    /,,"arte","encerrado","blablablablablabla",4.5,          /,"Circus arte e gastronomia. Santa Tereza",    /,"Brasil","Minas Gerais","Belo Horizonte","R. Hermilo Alves",437,
+,"Feira Goma",,                  /,,"arte","encerrado","bleblebleblebleble",4.6,          /,"Layback",                                    /,"Brasil","São Paulo","Santos","Av. Conselheiro Nébias",630,
+,"Feira e-cêntrica",,            /,,"arte","encerrado","blibliblibliblibli",4.7,          /,"Vila Cultural Cora Coralina",                /,"Brasil","Goiás","Goiânia","R. 3",,
+,"Edições Motim - Seca",,        /,,"arte","encerrado","bloblobloblobloblo",4.8,          /,"CONIC",                                      /,"Brasil","Distrito Federal","Brasília","Via S2",,"Ali no pátio central da Birosca"
+,"POC CON",,                     /,,"arte","encerrado","blublublublublublu",4.9,          /,"Casa de Portugal",                           /,"Brasil","São Paulo","São Paulo","Av. Liberdade",602,
+,"Feira Bala",,                  /,,"festa","encerrado","bambambambambam",5.0,            /,"Layback",                                    /,"Brasil","São Paulo","Santos","Av. Conselheiro Nébias",630,

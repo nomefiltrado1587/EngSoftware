@@ -1,0 +1,38 @@
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search-form-container{
+    margin: auto;
+    width: 80%;
+    height: 50%;
+    padding-top: 100px;
+}
+#result{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex-basis: content;
+}
+
+.box-item{
+    max-height: 200px;
+    overflow-y: scroll;
+    border-style: ridge;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align: center;
+}

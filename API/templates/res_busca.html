@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>{% block title %}Resultados da busca{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <table>
+        <tr>
+            <th>Nome do evento</th>
+            <th>Tipo do evento</th>
+            <th>Status</th>
+            <th>Avaliação</th>
+            <th>Local</th>
+            <th>Endereço</th>
+        </tr>
+
+        {% for linha in results %}
+            <tr>
+                {% for campo in linha %}
+                    <td>{{ campo }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

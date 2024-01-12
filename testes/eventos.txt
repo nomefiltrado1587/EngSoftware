@@ -1,0 +1,41 @@
+1   Bandejão    \N  \N
+2   Palestra    \N  \N
+3   Secomp  \N  \N1   Bandejão    \N
+2   Palestra    \N
+3   Secomp  \N
+# Abril
+4   Feira Urucum - 3ª edição    \N
+# Maio
+5   Feira Goma  \N
+6   Feira e-cêntrica    \N
+7   Edições Motim - Seca    \N
+# Junho
+8   POC CON \N
+# Julho
+9   Printa-Feira  \N
+10  garganta   \N
+11  Feira Goma  \N
+# Agosto 
+12  FIQ (Festival Internacional de Quadrinhos)  \N
+13  FLIMA (Festa Literária Internacional da Mantiqueira)    \N
+14  Feira Textura - Festival Minas Plural   \N
+# Setembro
+15  Maru99  \N
+16  Rasga & Quebra  \N
+17  Matuta  \N
+18  Dobra   \N
+19  OGRA (feira de quadrinhos independentes)    \N
+# Outubro
+20  Santos Comic Expo   \N
+21  Feira Garganta  \N
+# Novembro
+22  Feira Miolo(s)  \N
+23  Feira Estopim   \N
+24  PIXEL SHOW  \N
+25  MOTIM   \N
+26  Butantã Gibicon \N
+27  FAÍSCA FESTIVAL DE PUBLICAÇÕES EXPERIMENTAIS    \N
+# Dezembro
+28  Feira Papeleira \N
+29  CCXP (Comic Con Experience) \N
+30  Feira Folhetaria de Arte Impressa 2022 - 5ª edição  \N

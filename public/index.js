@@ -1,0 +1,24 @@
+function routerManager(rout_id){
+    console.log(rout_id)
+    switch(rout_id)
+    {
+        case(0):
+            window.location.assign("../mainPage/index.html")
+            break
+        case(2):
+            window.location.assign("../createLocal/index.html")
+            break
+        case(1):
+            window.location.assign("../createEvent/index.html")
+            break
+        case(3):
+            window.location.assign("../createPacote/index.html")
+            break
+        case(4):
+            window.location.assign("../createSediar/index.html")
+            break
+        case(5):
+            window.location.assign("../search/index.html")
+            break
+    }
+}

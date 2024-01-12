@@ -1,0 +1,13 @@
+-- Já incluído em eventos_insert
+
+INSERT INTO Det_eventos (event_id, tipo, ev_status, descricao)
+VALUES (event_id_v, tipo_v, ev_status_v, descricao_v);
+
+SELECT
+    @details_id := LAST_INSERT_ID();
+
+UPDATE Eventos
+SET 
+    details_id = @details_id
+WHERE 
+    event_id = @event_id;
