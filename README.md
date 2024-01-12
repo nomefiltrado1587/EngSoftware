@@ -34,7 +34,7 @@ Responsável pela conexão do servidor ao banco de dados
 * Database  
 Responsável por armazenar as informações de Eventos e de Usuários 
 
-# Desenvolvedores
+### Desenvolvedores
 Vinícius Farias
 v195030@dac.unicamp.br
 
